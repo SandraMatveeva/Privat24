@@ -1,0 +1,59 @@
+.banner-list {
+  display: flex;
+  gap: 12px;
+}
+
+.banner-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px 0 100px;
+  gap: 30px;
+}
+
+.banner-title {
+  letter-spacing: 0.1px;
+  color: #000000f5;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.banner-text {
+}
+
+.btn-more-banner {
+  background: rgb(227, 227, 227);
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.btn-nav-banner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.wr-btn-nav-left {
+  background-size: 20px 20px;
+  background: url(../img/body_banner/chevron_left.c0780237bb7d5031.svg)
+    no-repeat center;
+  background-color: rgb(227, 227, 227);
+  padding: 10px 10px;
+}
+
+.btn-nav-left {
+}
+
+.wr-btn-nav-right {
+  background-size: 20px 20px;
+  background: url(../img/body_banner/chevron_right.bce4230d651cf431.svg)
+    no-repeat center;
+  background-color: rgb(227, 227, 227);
+  padding: 10px 10px;
+}
+
+.wr-btn-nav-text {
+  display: flex;
+}

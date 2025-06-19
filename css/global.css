@@ -1,7 +1,9 @@
 :root {
   --font-family: "Inter", sans-serif;
+  /* --font-size: 13px; */
   --container-width: 1200px;
-  --padding-global: 24px;
+  --padding-global: 0 24px;
+  --background-color: rgb(199, 229, 211);
 }
 
 * {
@@ -17,6 +19,9 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--background-color);
+  padding: var(--padding-global);
+  font-size: var(--font-size);
 }
 
 h1,
@@ -31,7 +36,7 @@ h6 {
 
 p {
   color: #000000f5;
-  line-height: 1.6;
+  /* line-height: 1.8; */
 }
 
 a {
@@ -41,6 +46,8 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
+  background-color: inherit;
 }
 
 ul {
@@ -58,6 +65,5 @@ li {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  /* padding: 32px; */
   overflow: hidden;
 }
