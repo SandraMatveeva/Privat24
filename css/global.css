@@ -20,6 +20,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background-color);
+  transition: background-color 0.3s ease;
   padding: var(--padding-global);
   font-size: var(--font-size);
 }
